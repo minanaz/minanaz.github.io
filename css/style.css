@@ -70,6 +70,16 @@ h1 {
 .wrapper__left {
   max-width: 530px;
 }
+.wrapper__left h1{
+  font-size: 72px; 
+  background: -webkit-linear-gradient(#e66465, #9198e5);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+ 
+}
+
+
+
 .wrapper__left p {
   font-size: var(--main-size);
   color: var(--secondary-color);
@@ -152,7 +162,7 @@ h1 {
 .gradient-bg-2 {
   position: absolute;
   top: 0;
-  right: 0;
+  right: 510px;
   width: 467px;
   height: 1399.3px;
   background: linear-gradient(
@@ -220,6 +230,10 @@ h1 {
   column-gap: 24px;
 }
 
+.portfolio-list img {
+  width: 100%;
+}
+
 .dots {
   display: flex;
   justify-content: center;
@@ -279,7 +293,7 @@ h1 {
 .gradient-bg-4 {
   position: absolute;
   top: 0;
-  right: 0;
+  right: 550px;
   width: 403px;
   height: 1462px;
   background: linear-gradient(
